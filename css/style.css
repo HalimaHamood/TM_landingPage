@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;   
+}
+
+nav {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 140px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo{
+    position: relative;
+}
+
+nav ul{
+    position: relative;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav li #home{
+    color: #1F1534;
+}
+
+nav ul li a{
+    cursor: pointer;
+    display: inline-block;
+    color: #7D7987;
+    font-weight: bold;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.section-1 a, 
+.section-7 a{
+display: inline-block;
+padding: 15px 40px;
+border: 1px solid #458FF6 ;
+color: white;
+border-radius: 50px;
+background-color: #458FF6;
+font-weight: bold;
+text-decoration: none; 
+} 
+
+.section-1 a:hover,
+.section-7 a:hover
+ {
+    display: inline-block;
+    padding: 15px 40px;
+    border: 1px solid #458FF6;
+    color: #458FF6;
+    background-color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.section-2 a{
+  background-color: #F3F7FF ;
+  display: inline-block;
+  padding: 15px 40px;
+  border: 1px solid #458FF6;
+  color: #458FF6;
+  border-radius: 50px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.section-3 a,
+.section-4 a,
+.section-6 a
+{
+  display: inline-block;
+  padding: 15px 40px;
+  border: 1px solid #458FF6;
+  color: #458FF6;
+  border-radius: 50px;
+  background-color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+ .section-2 a:hover, 
+ .section-3 a:hover, 
+ .section-4 a:hover, 
+ .section-6 a:hover{
+    display: inline-block;
+    padding: 15px 40px;
+    border: 1px solid #458FF6 ;
+    color: white;
+    border-radius: 50px;
+    background-color: #458FF6;
+    font-weight: bold;
+    text-decoration: none; 
+    } 
+
+
+    /* section-5 */
+.carousel {  
+    position: relative;
+  }
+  
+  .carousel__item {
+    height: 450px;
+    background: rgb(255, 255, 255);
+    color: #ffffff;
+    display: none;
+  }
+  
+  .carousel__item--selected {
+    display: block;
+  }
+  
+  .carousel__nav {
+    width: 100%;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+  }
+
+  .carousel__button {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: #95badd;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .carousel__button--selected {
+    background: #458FF6;
+  }
+
+
