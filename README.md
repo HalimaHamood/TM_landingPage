@@ -1,7 +1,7 @@
 # Task Manager landing_Page
 
 ### Description
-Landing page (Task manager) is a website built for Esbaar company. It's a desktop website, still not responsive.
+Landing page (Task manager) is a website built for Esbaar company. It's a desktop view, still not responsive.
 This tool will help Esbaar employees to track and manage their day-to-day task and they can subscribe to the company's newsletter.
 
 ### ScreenShot of part of the landing page
@@ -18,4 +18,4 @@ This tool will help Esbaar employees to track and manage their day-to-day task a
 * [MDB icons]
 
 ### How to run the website (Task Manager_landing page)
-Create folder named(MDB5) and add all the files to it, then use VS code editor or any other editor you prefer, run index.html file to show the landing page in the desktop view.
+Create folder named(MDB5) and add all the files to it, then use VS code editor or any other editors you prefer, run index.html file to show the landing page in the desktop view.
